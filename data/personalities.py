@@ -1,0 +1,98 @@
+"""
+Famous personality profiles with estimated Big Five trait vectors.
+Trait order: [Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism]
+Based on publicly available personality research and cultural analysis.
+"""
+
+FAMOUS_PERSONALITIES = {
+    "Elon Musk": {
+        "traits": [95, 70, 80, 35, 60],
+        "emoji": "🚀",
+        "field": "Technology & Entrepreneurship",
+        "descriptor": "Visionary Disruptor",
+        "bio": "Founder of Tesla, SpaceX, and multiple ventures reshaping humanity's future.",
+        "quote": "When something is important enough, you do it even if the odds are not in your favor.",
+        "known_for": ["First principles thinking", "Extreme ambition", "Contrarian vision"],
+    },
+    "Marie Curie": {
+        "traits": [95, 92, 40, 70, 45],
+        "emoji": "⚗️",
+        "field": "Science & Research",
+        "descriptor": "Relentless Pioneer",
+        "bio": "Two-time Nobel laureate who pioneered research in radioactivity.",
+        "quote": "Nothing in life is to be feared, it is only to be understood.",
+        "known_for": ["Scientific rigor", "Perseverance", "Groundbreaking discovery"],
+    },
+    "Steve Jobs": {
+        "traits": [90, 75, 70, 30, 65],
+        "emoji": "🍎",
+        "field": "Technology & Design",
+        "descriptor": "Perfectionist Visionary",
+        "bio": "Co-founder of Apple, revolutionized computing, music, and mobile technology.",
+        "quote": "Stay hungry. Stay foolish.",
+        "known_for": ["Obsessive quality", "Design philosophy", "Reality distortion field"],
+    },
+    "Carl Jung": {
+        "traits": [98, 75, 35, 65, 55],
+        "emoji": "🧠",
+        "field": "Psychology & Philosophy",
+        "descriptor": "Depth Explorer",
+        "bio": "Founder of analytical psychology and architect of the concept of archetypes.",
+        "quote": "Until you make the unconscious conscious, it will direct your life.",
+        "known_for": ["Analytical psychology", "Archetypes", "Collective unconscious"],
+    },
+    "Richard Feynman": {
+        "traits": [95, 70, 80, 65, 35],
+        "emoji": "⚛️",
+        "field": "Physics & Education",
+        "descriptor": "Playful Genius",
+        "bio": "Nobel Prize physicist known for quantum electrodynamics and brilliant teaching.",
+        "quote": "I would rather have questions that can't be answered than answers that can't be questioned.",
+        "known_for": ["Curiosity", "Clear communication", "Joyful inquiry"],
+    },
+    "Leonardo da Vinci": {
+        "traits": [99, 60, 55, 68, 50],
+        "emoji": "🎨",
+        "field": "Art, Science & Innovation",
+        "descriptor": "Renaissance Polymath",
+        "bio": "The ultimate Renaissance man — painter, inventor, anatomist, and visionary.",
+        "quote": "Learning never exhausts the mind.",
+        "known_for": ["Polymathic curiosity", "Visual thinking", "Cross-domain mastery"],
+    },
+    "Oprah Winfrey": {
+        "traits": [80, 72, 90, 88, 50],
+        "emoji": "🌟",
+        "field": "Media & Philanthropy",
+        "descriptor": "Empathetic Connector",
+        "bio": "Media mogul who transformed television through authentic human connection.",
+        "quote": "The biggest adventure you can take is to live the life of your dreams.",
+        "known_for": ["Emotional intelligence", "Storytelling", "Empowerment"],
+    },
+    "Warren Buffett": {
+        "traits": [65, 92, 55, 75, 20],
+        "emoji": "💼",
+        "field": "Finance & Investment",
+        "descriptor": "Patient Strategist",
+        "bio": "The world's most celebrated investor known for disciplined long-term thinking.",
+        "quote": "The stock market is designed to transfer money from the active to the patient.",
+        "known_for": ["Patience", "Rational thinking", "Long-term vision"],
+    },
+    "Ada Lovelace": {
+        "traits": [97, 85, 45, 70, 55],
+        "emoji": "🖥️",
+        "field": "Mathematics & Computing",
+        "descriptor": "Analytical Dreamer",
+        "bio": "World's first computer programmer, a century before computers existed.",
+        "quote": "The more I study, the more insatiable do I feel my genius for it to be.",
+        "known_for": ["Abstract thinking", "Mathematical vision", "Pioneering spirit"],
+    },
+    "Nelson Mandela": {
+        "traits": [75, 82, 75, 92, 30],
+        "emoji": "✊",
+        "field": "Leadership & Justice",
+        "descriptor": "Resilient Unifier",
+        "bio": "Anti-apartheid revolutionary who became South Africa's first Black president.",
+        "quote": "It always seems impossible until it's done.",
+        "known_for": ["Forgiveness", "Strategic patience", "Moral leadership"],
+    },
+}
